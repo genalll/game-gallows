@@ -1,0 +1,100 @@
+.map {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin:0 auto;
+    width: 90%;
+    height:90vh;
+    border:10px solid black;
+    box-shadow: 10px 10px 4px 2px black;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+.image
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow:5;
+        width: 52%;
+        height: 88vh;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+.box
+    {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left:20px;
+        width: 45%;
+        height:70vh;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .az {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        width:10%;
+        height:10%;
+        border: 5px solid black;
+        border-radius:3px;
+        }
+
+    .images {
+        background-image: url("back.jpg");
+        background-repeat: no-repeat;
+        width:502px;
+        height: 640px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius:5px;
+
+    }
+
+    form {margin-top:20px;}
+
+    .indi{
+        width:25vh;
+        height:12vh;
+        filter: blur(20px);
+        opacity: 1.5;
+        background-color:gray;
+        margin-left:20px;
+        padding:1px;
+        flex-grow:5;
+        flex-shrink:5;
+    }
+
+    .divcount{
+        margin-top:10px;
+        display: flex;
+    }
+
+    body {
+        background-color:darkslategray;
+    }
+
+    footer{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        width:100%;
+        margin: 0 auto;
+        text-align:center;
+        background-color: dimgray;
+        color:white;
+        height: 60px;
+    }
