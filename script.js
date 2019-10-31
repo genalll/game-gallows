@@ -175,7 +175,7 @@ window.onload = function() {
 
           if (count == 0) {
              soundClick4();
-             var result = confirm("Ты проиграл! Твоя виселица готова");
+             var result = confirm("Ты проиграл! Твоя виселица готова" , word);
              if (result){
                 
                 document.location.href = "index.html";
