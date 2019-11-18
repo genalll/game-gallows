@@ -66,8 +66,8 @@
     form {margin-top:20px;}
 
     .indi{
-        width:25vh;
-        height:12vh;
+        width:45%;
+        height:20%;
         filter: blur(20px);
         opacity: 1.5;
         background-color:gray;
